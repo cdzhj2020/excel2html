@@ -7,7 +7,7 @@ public class ExcelToHtml {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		File file=new File("d:/2019104»ÆìÏº¼.xls");
+		File file=new File("d:/2019104.xls");
 		try {
 			String str=ExcelTransformHtml.getExcelInfo(file);
 			System.out.println("test");
